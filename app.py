@@ -1,5 +1,3 @@
-pip installl flask streamlit langchain openai
-
 from flask import Flask, request
 from langchain.document_loaders import YoutubeLoader
 from langchain.llms import OpenAI
