@@ -5,7 +5,7 @@ import streamlit as st
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "input your api key"
 
 def home():
     if request.method == 'POST':
